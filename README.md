@@ -8,7 +8,7 @@ npm i --save anonfile-api
 
 ### Example
 ```javascript
-import uploadAnonFile from "anonfile-api"
+import { uploadAnonFile } from "anonfile-api"
 
 /* FileObject | PathToFile */
 const res = uploadAnonFile("./files/image.png")
