@@ -3,12 +3,12 @@ Unofficial API wrapper for anonfiles.com
 
 ### Installation
 ```bash
-npm i --save anonfile-api
+npm i --save @sekiju/anonfiles-api
 ```
 
 ### Example
 ```javascript
-import { uploadAnonFile } from "anonfile-api"
+import { uploadAnonFile } from "@sekiju/anonfiles-api"
 
 /* FileObject | PathToFile */
 const res = uploadAnonFile("./files/image.png")
