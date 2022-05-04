@@ -1,7 +1,8 @@
-const { uploadAnonFile } = require("../index")
+const { uploadAnonFile, getAnonInfo } = require("../index")
 
 async function main() {
-    return uploadAnonFile(`./tests/TEST.txt`)
+    // return getInfo(`pefbW3c5y3`)
+    // return uploadAnonFile(`./tests/TEST.txt`)
 }
 
 main().then(res => console.log(res))

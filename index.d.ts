@@ -45,4 +45,5 @@ type ErrorResponse = {
 
 declare module '@sekiju/anonfiles-api' {
     export function uploadAnonFile(content: string | File | Blob): Promise<SuccessfulResponse | ErrorResponse>
+    export function getAnonInfo(id: string): Promise<SuccessfulResponse | ErrorResponse>
 }

@@ -1,6 +1,6 @@
 {
   "name": "@sekiju/anonfiles-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Unofficial API wrapper for anonfiles.com",
   "main": "index.js",
   "types": "index.d.ts",
