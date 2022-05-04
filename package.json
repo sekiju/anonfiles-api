@@ -1,0 +1,29 @@
+{
+  "name": "@sekiju/anonfiles-api",
+  "version": "1.0.1",
+  "description": "Unofficial API wrapper for anonfiles.com",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node tests/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sekiju/anonfiles-api.git"
+  },
+  "keywords": [
+    "anonfiles",
+    "file-upload",
+    "api"
+  ],
+  "author": "Sekiju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sekiju/anonfiles-api/issues"
+  },
+  "homepage": "https://github.com/sekiju/anonfiles-api#readme",
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "node-fetch": "^2.6.7"
+  }
+}
